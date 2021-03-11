@@ -15,7 +15,7 @@ MySQL Connector for Python
         name varchar(20) NOT NULL,
         id bigint NOT NULL,
         sex char(1),
-        password NOT NULL,
+        password char(40) NOT NULL
     );
     create table book(
         book_id varchar(20) NOT NULL,
